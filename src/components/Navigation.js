@@ -6,10 +6,10 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 class Navigation extends Component{
   render(){
     return(
-      <div>
+      <div className="navigation">
         <Navbar>
           <Container>
-            <Navbar.Brand href="/">Content generator</Navbar.Brand>
+            <Navbar.Brand href="/">CONTENT GENERATOR</Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link href="Instagram">Instagram</Nav.Link>
                 <Nav.Link href="SeoContent">SEO</Nav.Link>

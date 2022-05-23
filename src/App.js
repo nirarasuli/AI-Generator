@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App d-flex flex-column min-vh-100">
         <Navigation/>
         <Routes>
           <Route path="/" exact element={<Home/>}/>

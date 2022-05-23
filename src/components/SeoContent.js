@@ -44,9 +44,9 @@ class SeoContent extends Component{
   }
   render(){
     return (
-      <div>
+      <div className="seoPage mt-5 mb-5">
         <Container>
-          <h1>Generate SEO-friendly content</h1>
+          <h1 className="mb-5">Generate SEO-friendly content</h1>
           <h4>Generate SEO-friendly Content for your website and improve your ranking easily, by entering the keywords.</h4>
           <Form onSubmit={this.onFormSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">

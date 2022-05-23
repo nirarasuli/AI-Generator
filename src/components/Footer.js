@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Container } from "react-bootstrap";
 
 const Footer = () => 
-<div>
+<div className="footer mt-auto">
   <Container>
-  <footer className="page-footer font-small blue pt-4">
+  <footer className="page-footer font-small blue pt-4 ">
       <div className="container-fluid text-md-left">
           <div className="row justify-content-between">
               <div className="col-md-5 mt-md-0 mt-3">
@@ -14,7 +14,7 @@ const Footer = () =>
                   <p>Creating content has never been easier. This tool utilizes AI (Artificial Inteligence) to create meaningful content. Simply enter the words and get SEO-friendly content for your website, or Instagram caption for your next post.</p>
               </div>
               <div className="col-md-2 mb-md-0 mb-3">
-                  <h5 className="text-uppercase">Links</h5>
+                  <h5 className="text-uppercase">Services</h5>
                   <ul className="list-unstyled">
                       <li><a href="Instagram">Instagram</a></li>
                       <li><a href="SeoContent">SEO</a></li>

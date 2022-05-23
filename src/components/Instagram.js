@@ -44,9 +44,9 @@ class Instagram extends Component{
   }
   render(){
     return (
-      <div>
+      <div className="instagramPage mt-5 mb-5">
         <Container>
-          <h1>Generate Instagram Caption</h1>
+          <h1 className="mb-5">Generate Instagram Caption</h1>
           <h4>Generate Instagram caption for your posts and improve your engagement rate easily, by entering the keywords.</h4>
           <Form onSubmit={this.onFormSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
