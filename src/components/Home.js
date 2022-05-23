@@ -14,7 +14,7 @@ class Home extends Component{
         <Container>
           <div className="mb-5">
             <h2 className="mb-3">CONTENT GENERATOR</h2>
-            <p>Welcome to CONTENT GENERATOR! This tool is designed to help you create high-quality, SEO-friendly content for your website, or caption for your instagram post. First, let's get started by choosing a service. Once you've selected a service, you can start. To start, you'll need to choose some key-words. To get a more accurate content or caption, we recommend using a clear and concise style, and entering as much words as posible. To finish, submit your words. Repeat these steps until you reach your desired result.<br></br>
+            <p>Welcome to CONTENT GENERATOR! This tool is designed to help you create high-quality, SEO-friendly content for your website or caption for your Instagram post. First, let's get started by choosing a service. Once you've selected a service, you can begin. To start, you'll need to select some keywords. To get a more accurate content or caption, we recommend using a clear and concise style and entering as many words as possible. To finish, submit your words. Repeat these steps until you reach your desired result.<br></br>
               <div className="text-muted">(This content was created using the CONTENT GENERATOR SEO tool.)</div>
             </p>
           </div>
